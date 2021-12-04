@@ -50,3 +50,20 @@ header {
   border: 1px solid #4f33f1;
   transition: 0.3s;
 }
+
+.oNama-podaci {
+  position: absolute;
+  left: 150px;
+  width: 500px;
+  height: 120px;
+  top: 200px;
+}
+
+.oNama-podaci p {
+
+  color: rgb(217, 177, 199);
+  padding: 5px;
+  text-indent: 30px;
+
+
+}
