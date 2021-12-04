@@ -1,0 +1,64 @@
+.lightbox {
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    /* IE Fallback (Solid Colour) */
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-filter: none !important;
+    z-index: 9997;
+}
+
+.lightbox img {
+    display: block;
+    position: absolute;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px #000;
+    border-radius: 1px;
+}
+
+.lightbox__button {
+    position: absolute;
+    z-index: 9999;
+    background: no-repeat center center;
+    width: 32px;
+    height: 32px;
+    opacity: 0.4;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.lightbox__button:hover,
+.lightbox__button:focus {
+    opacity: 1;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.lightbox__close {
+    right: 10px;
+    top: 10px;
+    background-image: url("imagesJquery/close.png");
+}
+
+.lightbox__nav {
+    top: 50%;
+    margin-top: -16px;
+}
+
+.lightbox__nav--next {
+    right: 10px;
+    background-image: url("imagesJquery/next.png");
+}
+
+.lightbox__nav--prev {
+    left: 10px;
+    background-image: url("imagesJquery/previous.png");
+}

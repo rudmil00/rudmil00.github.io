@@ -13,6 +13,7 @@
   color: black;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -44,7 +45,7 @@ header {
 }
 
 .nav-links li a:hover {
-  color: rgb(187, 255, 0);
+  color: rgba(154,244,219,255);
   background-color: rgb(11, 25, 224);
   border: 1px solid #4f33f1;
   transition: 0.3s;
