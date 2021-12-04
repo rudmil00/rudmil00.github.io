@@ -19,7 +19,7 @@
         var opts = {
             margin: 50,
             nav: true,
-            blur: false,
+            blur: true,
             minSize: 0
         };
 
