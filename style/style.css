@@ -61,7 +61,7 @@ header {
 }
 .glavna-sekcija h1 {
   text-align: center;
-  padding: 10rem;
+  padding: 10%;
   font-size: 8rem;
   color: aliceblue;
   font-family: "Corinthia";
@@ -79,6 +79,9 @@ header {
   align-items: center;
   margin-left: 220px;
   margin-right: 220px;
+}
+.opste {
+  margin-top: px;
 }
 .oNama-podaci {
   position: absolute;
