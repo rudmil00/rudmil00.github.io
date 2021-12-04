@@ -20,21 +20,6 @@
     border-radius: 1px;
 }
 
-/* body.blurred > * {
-    -webkit-filter: blur(2px);
-    -webkit-transform: translate3d(0, 0, 0);
-} */
-
-/* .lightbox__loading {
-    background: url(images/loading.gif) center center no-repeat;
-    width: 32px;
-    height: 32px;
-    margin: -16px 0 0 -16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
-
 .lightbox__button {
     position: absolute;
     z-index: 9999;
