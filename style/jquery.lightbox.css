@@ -7,7 +7,6 @@
     left: 0;
     background: black;
     /* IE Fallback (Solid Colour) */
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIElEQVQ4T2NkYGDYDMRkA8ZRAxhGw4BhNAyA+WAYpAMAIFgLQfO9BoEAAAAASUVORK5CYII=);
     background: rgba(0, 0, 0, 0.7);
     -webkit-filter: none !important;
     z-index: 9997;
