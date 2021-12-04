@@ -9,16 +9,15 @@
 .nav-bar {
   font-family: "Montserrat";
   font-weight: 300;
-  font-size: 16px;
+  font-size: ;
   color: black;
 }
-
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 10px 10px;
 }
 .glavni-naslov {
   font-family: "Comforter Brush";
@@ -45,7 +44,7 @@ header {
 }
 
 .nav-links li a:hover {
-  color: rgba(154,244,219,255);
+  color: rgba(154, 244, 219, 255);
   background-color: rgb(11, 25, 224);
   border: 1px solid #4f33f1;
   transition: 0.3s;
