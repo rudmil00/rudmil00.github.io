@@ -68,6 +68,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
 }
 .oNama-podaci {
   position: absolute;
