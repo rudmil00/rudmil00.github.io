@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Corinthia:wght@700&family=Montserrat:wght@300&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 10px;
 }
 .glavni-naslov {
@@ -25,8 +26,8 @@ header {
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 
 .nav-links {
@@ -39,6 +40,7 @@ header {
 }
 .nav-links li a {
   font-size: 20px;
+  padding-right: 20px;
   text-decoration: none;
   color: black;
 }
@@ -51,13 +53,19 @@ header {
 }
 
 .glavna-sekcija {
-  background-image: url("../images/F/glavna-1.jpeg");
+  background-image: url("../images/glavna-1.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 500px;
 }
-
+.glavna-sekcija h1 {
+  text-align: center;
+  padding: 10%;
+  font-size: 8rem;
+  color: aliceblue;
+  font-family: "Corinthia";
+}
 .naslov {
   margin-top: 50px;
   text-align: center;
@@ -67,9 +75,13 @@ header {
 .top-proizvodi {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 220px;
   margin-right: 220px;
+}
+.opste {
+  margin-top: px;
 }
 .oNama-podaci {
   position: absolute;
