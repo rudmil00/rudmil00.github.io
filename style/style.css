@@ -80,7 +80,7 @@
   }
   .nav-bar-mini.responsive a.icon {
     float: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
   .nav-bar-mini.responsive a {
@@ -89,6 +89,21 @@
     text-align: left;
   }
 }
+
+#my-icon{
+  background-color: white;
+}
+#my-icon :hover{
+  background-color: white;
+}
+#my-icon a.active{
+  background-color: white;
+}
+
+
+
+
+
 
 header {
   display: flex;
