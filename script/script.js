@@ -39,9 +39,9 @@ obrisi.addEventListener("click", function () {
 });
 
 var myWindow;
-let posalji = document.getElementsByClassName("posalji")[0];
+//let posalji = document.getElementsByClassName("posalji")[0];
 
-$(".posalji").click(myWindow);
+$(".open").click(myWindow);
 
 function myWindow() {
   myWindow = window.open(
