@@ -164,11 +164,13 @@ footer {
   margin-bottom: 20px;
   /* padding: 20px; */
   /* top: 500px; */
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   width: 100%;
-  position: absolute;
-  text-align: right;
+  position: relative;
+  text-align: center;
+  top: 80px;
+  /* bottom: 10px; */
   background-color:rgb(255,182,193);
 }
 
