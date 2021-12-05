@@ -7,47 +7,47 @@
         <link rel="stylesheet" href="style/style.css">
         
         <link rel="stylesheet" type="text/css" href="style/jquery.lightbox.css">
-        <link rel="stylesheet" href="style/ponuda.css"> 
-        
+        <link rel="stylesheet" href="style/ponuda.css">
+                
         <title>Ponuda</title>
     </head>
     <body>
         <header>
-            <img src="images\logo.png" class="logo">
+            <a href="index.html"><img src="images\logo.png" class="logo"/></a>
             <h1 class="glavni-naslov">Ponuda</h1>
-            <div class="nav-bar">
-                <ul class="nav-links">
-                    <li>
-                        <a href="index.html">Pocetna</a>
-                    </li>
-                    <li>
-                        <a href="oNama.html">O nama</a>
-                    </li>
-                    <li>
-                        <a href="ponuda.html">Ponuda</a>
-                    </li>
-                    <li>
-                        <a href="kontakt.html">Kontakt</a>
-                    </li>
-                </ul>
+            <div class="nav-bar" id = "my-nav-bar">
+              <a href = "index.html">Pocetna</a>
+              <a href = "ponuda.html" class = "active">Ponuda</a>
+              <a href = "kontakt.html">Kontakt</a>
+              <a href = "oNama.html">O nama</a>
             </div>
-            
             <button onclick="topFunction()" id="myBtn" title="Idi na vrh stranice">     ⇧     </button>
+          </header>
 
-        </header>
+          <div class="nav-bar-mini" id = "my-nav-bar-mini">
+            <a href = "index.html">Pocetna</a>
+            <a href = "ponuda.html" class = "active">Ponuda</a>
+            <a href = "kontakt.html">Kontakt</a>
+            <a href = "oNama.html">O nama</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <img src = "images/meni.png"/>
+            </a>
+          </div>
+          <button onclick="topFunction()" id="myBtn" title="Idi na vrh stranice">     ⇧     </button>
+
             <div class="container">
                 <br><br>
                 <h1> Torte i komandni kolači</h1>
               
                 <ul class="gallery">
-                    <li><a href="images/I/I1.jpg"><img src="images/I/I1th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I2.jpg"><img src="images/I/I2th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I3.jpg"><img src="images/I/I3th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I4.jpg"><img src="images/I/I4th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I5.jpg"><img src="images/I/I5th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I6.jpg"><img src="images/I/I6th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I7.jpg"><img src="images/I/I7th.png" alt="Image"></a></li>
-                    <li><a href="images/I/I8.jpg"><img src="images/I/I8th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H1.jpg"><img src="images/H/H1th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H2.jpg"><img src="images/H/H2th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H3.jpg"><img src="images/H/H3th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H4.jpg"><img src="images/H/H4th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H5.jpg"><img src="images/H/H5th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H6.jpg"><img src="images/H/H6th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H7.jpg"><img src="images/H/H7th.png" alt="Image"></a></li>
+                  <li><a href="images/H/H8.jpg"><img src="images/H/H8th.png" alt="Image"></a></li>
     
                 </ul>
               </div>
