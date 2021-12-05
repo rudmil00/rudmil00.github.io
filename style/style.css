@@ -243,29 +243,58 @@ footer {
   background-position: center; */
 }
 
-.mv-tekst {
-  text-align: center;
 
-  /* padding: 10% 5% 30% 0%; */
-  background-size: cover;
+
+
+
+
+.footer{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
 }
 
-.mv-tekst h1 {
-  text-transform: uppercase;
-  text-shadow: 3px 2px 2px #cccccc;
-  color: #001021;
+.logo-footer{
+  float:left;
+
 }
 
-.vizija {
-  background-image: url("/images/zena.jpg");
+.column {
+  float: left;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  }
+
+.column a{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
-.misija {
-  background-image: url("/images/sladoled.jpg");
-}
+  /* Set width length for the left, right and middle columns */
 
-.mv-pozadina {
-  /* height: 100%;
-  width: 100%; */
-  background-color: rgba(0, 0, 0, 0.4);
-}
+  .left {
+  width: 15%;
+  }
+
+  .middle {
+  margin-top: 10px;
+  width: 5%;
+  }
+  
+  .right {
+  width: 15%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
