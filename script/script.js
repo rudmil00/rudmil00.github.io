@@ -8,40 +8,8 @@ function myFunction() {
     x.className = "nav-bar-mini";
   }
 }
-
-// $(".posalji-btn").click(function () {
-//   if ($("ime").textContent == " ") {
-//     console.log(this.textContent);
-//     alert("Niste popunili sva polja.😒");
-//   } else if ($("prezime").textContent == " ") {
-//     alert("Niste popunili sva polja.😒");
-//   } else if ($("e-mail").textContent == " ") {
-//     alert("Niste popunili sva polja.😒");
-//   } else if ($("poruka").textContent == " ") {
-//     alert("Niste popunili sva polja.😒");
-//   } else alert("Poslali ste vasu poruku.😊😊😊");
-// });
-
-// posalji.addEventListener("click", function () {
-//   console.log("cao bela");
-// });
-
-// document
-//   .querySelector(".posalji-btn")
-//   .addEventListener("click", function () {});
-
-let obrisi = document.querySelector(".obrisi-btn");
-obrisi.addEventListener("click", function () {
-  document.querySelector(".ime").textContent = " ";
-  document.querySelector(".prezime").textContent = " ";
-  document.querySelector(".e-mail").textContent = " ";
-  document.querySelector(".poruka").textContent = " ";
-});
-
 var myWindow;
 //let posalji = document.getElementsByClassName("posalji")[0];
-
-$(".open").click(myWindow);
 
 function myWindow() {
   myWindow = window.open(
@@ -64,3 +32,38 @@ function myWindow() {
       $(".poruka").val()
   );
 }
+
+$(".open").click(function () {
+  if (document.querySelector(".ime").value === "") {
+    alert("Niste popunili sva polja.😒");
+  } else if (document.querySelector(".prezime").value === "") {
+    alert("Niste popunili sva polja.😒");
+  } else if (document.querySelector(".e-mail").value === "") {
+    alert("Niste popunili sva polja.😒");
+  } else if ($("input[type=radio]:checked").length < 1) {
+    alert("Niste popunili sva polja.😒");
+  } else if (document.querySelector(".poruka").value === "") {
+    alert("Niste popunili sva polja.😒");
+  } else {
+    alert("Poslali ste vasu poruku.😊😊😊");
+    myWindow();
+    window.location.reload();
+  }
+});
+
+// posalji.addEventListener("click", function () {
+//   console.log("cao bela");
+// });
+
+// document
+//   .querySelector(".posalji-btn")
+//   .addEventListener("click", function () {});
+function obrisi() {
+  document.querySelector(".ime").textContent = " ";
+  document.querySelector(".prezime").textContent = " ";
+  document.querySelector(".e-mail").textContent = " ";
+  document.querySelector(".poruka").textContent = " ";
+}
+
+let obr = document.querySelector(".obrisi-btn");
+obr.addEventListener("click", obrisi());
