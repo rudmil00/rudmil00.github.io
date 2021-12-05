@@ -3,7 +3,6 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
-
 .top-proizvodi {
   display: flex;
   justify-content: space-around;
@@ -15,22 +14,17 @@
 }
 .torte {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  margin-right: 20%;
-  margin-bottom: 5%;
 }
-
 .torte p {
   font-size: 18px;
 }
 
 .torte img {
-  width: 100%;
-  max-width: 500px;
-  height: 100%;
-  max-height: 500px;
+  width: 200px;
+  height: 200px;
 }
 
 .tajmer {
@@ -59,7 +53,7 @@
 
 .akcija {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Montserrat";
 }
 .tparagraf {
