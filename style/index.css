@@ -109,3 +109,10 @@ button[type="button"] {
 .proizvodi {
   font-family: "Montserrat";
 }
+
+@media (max-width: 500px) {
+    .torte img{
+      width: 125px;
+      height: 125px;
+    }
+  }
