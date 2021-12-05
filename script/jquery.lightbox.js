@@ -1,15 +1,3 @@
-/*!
- * jquery.lightbox.js v1.4.1
- * https://github.com/duncanmcdougall/Responsive-Lightbox
- * Copyright 2020 Duncan McDougall and other contributors; @license Creative Commons Attribution 2.5
- *
- * Options: 
- * margin - int - default 50. Minimum margin around the image
- * nav - bool - default true. enable navigation
- * blur - bool - default true. Blur other content when open using css filter
- * minSize - int - default 0. Min window width or height to open lightbox. Below threshold will open image in a new tab.
- *
- */
 (function ($) {
 
     'use strict';
@@ -150,43 +138,35 @@
                     plugin.current = self;
                     plugin.loadImage();
 
-                    // Bind Keyboard Shortcuts
                     $(document).on('keydown', function (e) {
-                        // Close lightbox with ESC
                         if (e.keyCode === 27) {
                             plugin.close();
                         }
-                        // Go to next image pressing the right key
                         if (e.keyCode === 39) {
                             plugin.next();
                         }
-                        // Go to previous image pressing the left key
                         if (e.keyCode === 37) {
                             plugin.previous();
                         }
                     });
                 });
 
-                // Add click state on overlay background only
                 plugin.lightbox.on('click', function (e) {
                     if (this === e.target) {
                         plugin.close();
                     }
                 });
 
-                // Previous click
                 $(plugin.lightbox).on('click', '.lightbox__nav--prev', function () {
                     plugin.previous();
                     return false;
                 });
 
-                // Next click
                 $(plugin.lightbox).on('click', '.lightbox__nav--next', function () {
                     plugin.next();
                     return false;
                 });
 
-                // Close click
                 $(plugin.lightbox).on('click', '.lightbox__close', function () {
                     plugin.close();
                     return false;
@@ -201,7 +181,7 @@
             },
 
             close: function () {
-                $(document).off('keydown'); // Unbind all key events each time the lightbox is closed
+                $(document).off('keydown'); 
                 $(plugin.lightbox).fadeOut('fast');
                 $('body').removeClass('blurred');
             }
