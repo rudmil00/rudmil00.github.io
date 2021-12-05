@@ -12,6 +12,19 @@
   margin-right: 220px;
   margin-bottom: 10px;
 }
+.torte {
+  display: flex;
+  height: 35vw;
+  margin-top: 5%;
+}
+.torte h1 {
+  text-align: center;
+}
+.torte p {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
 
 .tajmer {
   display: flex;
