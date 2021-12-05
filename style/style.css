@@ -138,4 +138,56 @@ header {
 .naslov {
   margin-top: 50px;
   text-align: center;
+
 }
+
+.footer{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+}
+
+.logo-footer{
+  float:left;
+
+}
+
+.column {
+  float: left;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  }
+
+.column a{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+  /* Set width length for the left, right and middle columns */
+
+  .left {
+  width: 15%;
+  }
+
+  .middle {
+  margin-top: 10px;
+  width: 5%;
+  }
+  
+  .right {
+  width: 15%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
