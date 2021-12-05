@@ -1,4 +1,68 @@
 .forma-kontakt {
   padding: 10%;
+  text-align: left;
+  border-radius: 5px;
+  background-color:rgb(238, 238, 238);
+  padding: 20px;
   margin-left: 10%;
+  margin-right:30%;
+  margin-top: 10%;
+  font-family: "Montserrat";
 }
+@media screen and (max-width: 600px) {
+  .forma-kontakt{
+    margin-right: 10%;
+  }
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+
+}
+
+textarea[name=poruka], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+button[type=button] {
+  width: 60%;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-color: #04aa6d57;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=button]:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+button[type=reset] {
+  width: 39%;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=reset]:hover {
+  background-color: #04aa6d;
+  color: white;}

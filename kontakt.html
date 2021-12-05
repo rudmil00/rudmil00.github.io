@@ -27,66 +27,77 @@
             <a href="ponuda.html">Ponuda</a>
             <a href="kontakt.html" class="active">Kontakt</a>
             <a href="oNama.html">O nama</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <img src="images/meni.png">
+            <a
+                href="javascript:void(0);"
+                class="icon"
+                id="my-icon"
+                onclick="myFunction()"
+            >
+                <img src="images/meni.png" id="my-icon">
             </a>
         </div>
     </header>
-    <form class="forma-kontakt">
-        <label for="ime">
-            Vase ime:
-        </label>
-        <input
-            type="text"
-            class="ime"
-            name="ime"
-            size="35"
-            maxlength="16"
-        >
-        <div>
+    <div class="forma">
+        <form class="forma-kontakt">
+            <label for="ime">Vase ime:</label>
+            <input
+                type="text"
+                placeholder="Ime"
+                class="ime"
+                name="ime"
+                size="35"
+                maxlength="16"
+            >
+            <br>
+            <br>
             <label for="prezime">Vase prezime:</label>
             <input
                 type="text"
+                placeholder="Prezime"
                 class="prezime"
                 name="prezime"
                 size="35"
                 maxlength="16"
             >
-        </div>
-        <div>
+            <br>
+            <br>
             <label for="e-mail">Vas e-mail:</label>
             <input
                 type="text"
+                placeholder="E-mail"
                 class="e-mail"
                 name="e-mail"
                 size="35"
                 manxlength="30"
             >
-        </div>
-        Izaberite tip poruke:
-        <br>
-        <input type="radio" name="tip" value="reklamacija">
-        Reklamacija
-        <br>
-        <input type="radio" name="tip" value="Upit">
-        Upit
-        <br>
-        <input type="radio" name="tip" value="porudzbina">
-        Porudzbina
-        <br>
-        Poruka:
-        <br>
-        <textarea
-            name="poruka"
-            class="poruka"
-            cols="40"
-            rows="10"
-        ></textarea>
-        <br>
-        <br>
-        <button class="posalji" type="button">Posalji</button>
-        <button class="obrisi-btn" type="reset">Obrisi</button>
-    </form>
+            <br>
+            <br>
+            <label for="tip poruke">Izaberite tip poruke:</label>
+            <br>
+            <input type="radio" name="tip" value="reklamacija">
+            <label for="reklamacija">Reklamacija</label>
+            <br>
+            <input type="radio" name="tip" value="Upit">
+            <label for="upit">Upit</label>
+            <br>
+            <input type="radio" name="tip" value="porudzbina">
+            <label for="porudzbina">Porudzbina</label>
+            <br>
+            <br>
+            <label for="poruka">Poruka:</label>
+            <br>
+            <textarea
+                name="poruka"
+                placeholder="Vasa poruka ne sme da ima vise od 400 reci"
+                class="poruka"
+                cols="46"
+                rows="10"
+            ></textarea>
+            <br>
+            <button class="open" type="button">Posalji</button>
+            <button class="obrisi-btn" type="reset">Obrisi</button>
+        </form>
+    </div>
     <script src="script/script.js"></script>
 </body>
 </html>
