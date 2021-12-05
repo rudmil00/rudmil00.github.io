@@ -27,68 +27,85 @@
             <a href="ponuda.html">Ponuda</a>
             <a href="kontakt.html" class="active">Kontakt</a>
             <a href="oNama.html">O nama</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <img src="images/meni.png">
+            <a
+                href="javascript:void(0);"
+                class="icon"
+                id="my-icon"
+                onclick="myFunction()"
+            >
+                <img src="images/meni.png" id="my-icon">
             </a>
         </div>
-      </header>
- 
+    </header>
+    <div class="forma-opis">
+        <h1 class="forma-opis-naslov">Forma</h1>
+        <p>
+            Pošaljite nam svoje sugestije, pohvale, ideje, zamerke - 
+                sve što vam padne na pamet u vezi vaše omiljene poslasticarnice 
+                Tra la la popunjavanjem elektronskog formulara na ovoj stranici.
+        </p>
+    </div>
+    <div class="forma">
         <form class="forma-kontakt">
-            <label for="ime">
-                Vase ime:
-            </label>
+            <label for="ime">Vase ime:</label>
             <input
                 type="text"
+                placeholder="Ime"
                 class="ime"
                 name="ime"
                 size="35"
                 maxlength="16"
             >
-            <div>
-                <label for="prezime">Vase prezime:</label>
-                <input
-                    type="text"
-                    class="prezime"
-                    name="prezime"
-                    size="35"
-                    maxlength="16"
-                >
-            </div>
-            <div>
-                <label for="e-mail">Vas e-mail:</label>
-                <input
-                    type="text"
-                    class="e-mail"
-                    name="e-mail"
-                    size="35"
-                    manxlength="30"
-                >
-            </div>
-            Izaberite tip poruke:
+            <br>
+            <br>
+            <label for="prezime">Vase prezime:</label>
+            <input
+                type="text"
+                placeholder="Prezime"
+                class="prezime"
+                name="prezime"
+                size="35"
+                maxlength="16"
+            >
+            <br>
+            <br>
+            <label for="e-mail">Vas e-mail:</label>
+            <input
+                type="text"
+                placeholder="E-mail"
+                class="e-mail"
+                name="e-mail"
+                size="35"
+                manxlength="30"
+            >
+            <br>
+            <br>
+            <label for="tip poruke">Izaberite tip poruke:</label>
             <br>
             <input type="radio" name="tip" value="reklamacija">
-            Reklamacija
+            <label for="reklamacija">Reklamacija</label>
             <br>
             <input type="radio" name="tip" value="Upit">
-            Upit
+            <label for="upit">Upit</label>
             <br>
             <input type="radio" name="tip" value="porudzbina">
-            Porudzbina
+            <label for="porudzbina">Porudzbina</label>
             <br>
-            Poruka:
+            <br>
+            <label for="poruka">Poruka:</label>
             <br>
             <textarea
                 name="poruka"
+                placeholder="Vasa poruka ne sme da ima vise od 400 reci"
                 class="poruka"
-                cols="40"
+                cols="46"
                 rows="10"
-            >
-                Poruka...</textarea>
-            <br>
+            ></textarea>
             <br>
             <button class="open" type="button">Posalji</button>
             <button class="obrisi-btn" type="reset">Obrisi</button>
         </form>
-        <script src="script/script.js"></script>
-    </body>
+    </div>
+    <script src="script/script.js"></script>
+</body>
 </html>
