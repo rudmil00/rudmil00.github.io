@@ -115,8 +115,10 @@ header {
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  /* width: 120px;
+  height: 120px; */
+  max-width: 100%;
+  height: auto;
 }
 
 .glavna-sekcija {
@@ -193,6 +195,11 @@ footer {
     padding: 10%;
     font-size: 18vw;
   }
+
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -221,16 +228,44 @@ footer {
 
 .mv-container {
   display: grid;
+  margin-top: 10%;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 60px 60px;
-  padding: 13% 5% 10% 5%;
+  grid-template-rows: 50% 50%;
+  /* padding: 13% 5% 10% 5%; */
   align-items: center;
-}
-
-.mv-naslov {
-  text-align: center;
+  font-size: 33px;
+  font-family: "Montserrat";
+  color: white;
+  text-shadow: slategrey;
+  /* background-repeat: no-repeat; */
+  /* 
+  background-repeat: no-repeat, no-repeat;
+  background-position: center; */
 }
 
 .mv-tekst {
   text-align: center;
+
+  /* padding: 10% 5% 30% 0%; */
+  background-size: cover;
+}
+
+.mv-tekst h1 {
+  text-transform: uppercase;
+  text-shadow: 3px 2px 2px #cccccc;
+  color: #001021;
+}
+
+.vizija {
+  background-image: url("/images/zena.jpg");
+}
+
+.misija {
+  background-image: url("/images/sladoled.jpg");
+}
+
+.mv-pozadina {
+  /* height: 100%;
+  width: 100%; */
+  background-color: rgba(0, 0, 0, 0.4);
 }
