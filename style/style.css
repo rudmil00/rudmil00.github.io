@@ -4,10 +4,10 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-family: "Montserrat";;
 }
 
 .nav-bar {
-  font-family: "Montserrat";
   font-weight: 300;
   font-size: 16px;
   color: black;
@@ -34,7 +34,6 @@
 }
 
 .nav-bar-mini {
-  font-family: "Montserrat";
   font-weight: 300;
   font-size: 16px;
   color: black;
@@ -139,133 +138,4 @@ header {
 .naslov {
   margin-top: 50px;
   text-align: center;
-  font-family: "Montserrat";
-}
-
-footer {
-  /* display: grid; */
-  /* grid-template-columns: 70% 30%;
-  /* grid-gap: 5px; - */
-  margin-top: 50px;
-  margin-right: 200px;
-  margin-bottom: 20px;
-  /* padding: 20px; */
-  /* top: 500px; */
-  /* max-width: 100%; */
-  height: auto;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  top: 80px;
-  /* bottom: 10px; */
-  background-color: rgb(255, 182, 193);
-}
-
-.dm-slika:hover {
-  opacity: 0.6;
-}
-
-.uvod-container {
-  margin: 40px 5% 0 5%;
-  width: auto;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 300px;
-  /* bottom: 10px; */
-}
-
-@media (max-width: 700px) {
-  .uvod-container {
-    grid-template-rows: 200px 300px;
-    grid-template-columns: 100%;
-    grid-column-gap: 2px;
-  }
-  .tekst {
-    font-size: 2.5vw;
-  }
-
-  .glavna-sekcija {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .glavna-sekcija h1 {
-    text-align: center;
-    padding: 10%;
-    font-size: 18vw;
-  }
-
-  .logo {
-    width: 50%;
-    height: 50%;
-  }
-}
-
-@media (max-width: 500px) {
-  .uvod-container {
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 100%;
-    align-items: start;
-  }
-  .tekst {
-    font-size: 13px;
-  }
-  .oNama-naslov {
-    font-size: 22px;
-  }
-
-  .mv-container {
-    grid-template-columns: 20% 20%;
-    grid-template-rows: 50% 50%;
-  }
-}
-
-.slika-poslasticarnice {
-  max-width: 100%;
-  height: auto;
-}
-
-.mv-container {
-  display: grid;
-  margin-top: 10%;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  /* padding: 13% 5% 10% 5%; */
-  align-items: center;
-  font-size: 33px;
-  font-family: "Montserrat";
-  color: white;
-  text-shadow: slategrey;
-  /* background-repeat: no-repeat; */
-  /* 
-  background-repeat: no-repeat, no-repeat;
-  background-position: center; */
-}
-
-.mv-tekst {
-  text-align: center;
-
-  /* padding: 10% 5% 30% 0%; */
-  background-size: cover;
-}
-
-.mv-tekst h1 {
-  text-transform: uppercase;
-  text-shadow: 3px 2px 2px #cccccc;
-  color: #001021;
-}
-
-.vizija {
-  background-image: url("/images/zena.jpg");
-}
-
-.misija {
-  background-image: url("/images/sladoled.jpg");
-}
-
-.mv-pozadina {
-  /* height: 100%;
-  width: 100%; */
-  background-color: rgba(0, 0, 0, 0.4);
 }
