@@ -3,3 +3,22 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
+
+.tajmer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.akcija {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.tparagraf {
+  font-size: 2rem;
+}
