@@ -4,10 +4,10 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-family: "Montserrat";;
 }
 
 .nav-bar {
-  font-family: "Montserrat";
   font-weight: 300;
   font-size: 16px;
   color: black;
@@ -34,7 +34,6 @@
 }
 
 .nav-bar-mini {
-  font-family: "Montserrat";
   font-weight: 300;
   font-size: 16px;
   color: black;
@@ -60,7 +59,7 @@
     display: none;
   }
 }
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
 @media screen and (max-width: 600px) {
   .nav-bar {
     display: none;
@@ -74,7 +73,6 @@
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .nav-bar-mini.responsive {
     position: relative;
@@ -89,14 +87,19 @@
     display: block;
     text-align: left;
   }
+  .column{
+    display: none;
+  }
 }
 
 #my-icon {
   background-color: white;
 }
+
 #my-icon :hover {
   background-color: white;
 }
+
 #my-icon a.active {
   background-color: white;
 }
@@ -109,14 +112,13 @@ header {
   padding: 10px 20px;
   padding-right: 100px;
 }
+
 .glavni-naslov {
   font-family: "Comforter Brush";
   color: rgb(25, 16, 16);
 }
 
 .logo {
-  /* width: 120px;
-  height: 120px; */
   max-width: 100%;
   height: auto;
 }
@@ -132,121 +134,15 @@ header {
   text-align: center;
   padding: 10%;
   font-size: 8rem;
-  /* color: aliceblue; */
   color: black;
   font-family: "Corinthia";
 }
+
 .naslov {
   margin-top: 50px;
   text-align: center;
-  font-family: "Montserrat";
+
 }
-
-footer {
-  /* display: grid; */
-  /* grid-template-columns: 70% 30%;
-  /* grid-gap: 5px; - */
-  margin-top: 50px;
-  margin-right: 200px;
-  margin-bottom: 20px;
-  /* padding: 20px; */
-  /* top: 500px; */
-  /* max-width: 100%; */
-  height: auto;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  top: 80px;
-  /* bottom: 10px; */
-  background-color: rgb(255, 182, 193);
-}
-
-.dm-slika:hover {
-  opacity: 0.6;
-}
-
-.uvod-container {
-  margin: 40px 5% 0 5%;
-  width: auto;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 300px;
-  /* bottom: 10px; */
-}
-
-@media (max-width: 700px) {
-  .uvod-container {
-    grid-template-rows: 200px 300px;
-    grid-template-columns: 100%;
-    grid-column-gap: 2px;
-  }
-  .tekst {
-    font-size: 2.5vw;
-  }
-
-  .glavna-sekcija {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .glavna-sekcija h1 {
-    text-align: center;
-    padding: 10%;
-    font-size: 18vw;
-  }
-
-  .logo {
-    width: 50%;
-    height: 50%;
-  }
-}
-
-@media (max-width: 500px) {
-  .uvod-container {
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 100%;
-    align-items: start;
-  }
-  .tekst {
-    font-size: 13px;
-  }
-  .oNama-naslov {
-    font-size: 22px;
-  }
-
-  .mv-container {
-    grid-template-columns: 20% 20%;
-    grid-template-rows: 50% 50%;
-  }
-}
-
-.slika-poslasticarnice {
-  max-width: 100%;
-  height: auto;
-}
-
-.mv-container {
-  display: grid;
-  margin-top: 10%;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  /* padding: 13% 5% 10% 5%; */
-  align-items: center;
-  font-size: 33px;
-  font-family: "Montserrat";
-  color: white;
-  text-shadow: slategrey;
-  /* background-repeat: no-repeat; */
-  /* 
-  background-repeat: no-repeat, no-repeat;
-  background-position: center; */
-}
-
-
-
-
-
 
 .footer{
   margin-top: 5%;
@@ -277,8 +173,6 @@ footer {
   text-decoration: none;
 }
 
-  /* Set width length for the left, right and middle columns */
-
   .left {
   width: 15%;
   }
@@ -297,4 +191,10 @@ footer {
   display: table;
   clear: both;
   }
+
+  .top-proizvodi{
+    margin-top:100;
+    background-color:rgb(231, 231, 231);
+  }
+  
   
