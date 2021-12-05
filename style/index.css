@@ -90,7 +90,7 @@
   font-size: 25px;
 }
 
-button[type="button"] {
+button[type=button] {
   width: 60%;
   background-color: white;
   padding: 14px 20px;
