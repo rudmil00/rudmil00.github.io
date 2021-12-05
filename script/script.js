@@ -1,3 +1,4 @@
+"use strict";
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("my-nav-bar-mini");
@@ -8,17 +9,18 @@ function myFunction() {
   }
 }
 
-$(".posalji-btn").click(function () {
-  if ($(".ime").value.length == 0) {
-    alert("Niste popunili sva polja.😒");
-  } else if ($(".prezime").value.length == 0) {
-    alert("Niste popunili sva polja.😒");
-  } else if ($(".e-mail").value.length == 0) {
-    alert("Niste popunili sva polja.😒");
-  } else if ($(".poruka").value.length == 0) {
-    alert("Niste popunili sva polja.😒");
-  } else alert("Poslali ste vasu poruku.😊😊😊");
-});
+// $(".posalji-btn").click(function () {
+//   if ($("ime").textContent == " ") {
+//     console.log(this.textContent);
+//     alert("Niste popunili sva polja.😒");
+//   } else if ($("prezime").textContent == " ") {
+//     alert("Niste popunili sva polja.😒");
+//   } else if ($("e-mail").textContent == " ") {
+//     alert("Niste popunili sva polja.😒");
+//   } else if ($("poruka").textContent == " ") {
+//     alert("Niste popunili sva polja.😒");
+//   } else alert("Poslali ste vasu poruku.😊😊😊");
+// });
 
 // posalji.addEventListener("click", function () {
 //   console.log("cao bela");
@@ -35,3 +37,13 @@ obrisi.addEventListener("click", function () {
   document.querySelector(".e-mail").textContent = " ";
   document.querySelector(".poruka").textContent = " ";
 });
+
+// $(".open").click(function () {
+//   myWindow = window.open(
+//     " ",
+//     "myWindow",
+//     "width=300,height=200, top=100,left=500,"
+//   );
+//   myWindow.document.write("hey");
+//   myWindow.select();
+// });
