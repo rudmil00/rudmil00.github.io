@@ -142,19 +142,6 @@ header {
   font-family: "Montserrat";
 }
 
-.top-proizvodi {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 220px;
-  margin-right: 220px;
-}
-
-.opste {
-  margin-top: 10%;
-}
-
 footer {
   /* display: grid; */
   /* grid-template-columns: 70% 30%;

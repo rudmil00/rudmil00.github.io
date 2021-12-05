@@ -3,6 +3,15 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
+.top-proizvodi {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 10px;
+}
 
 .tajmer {
   display: flex;
@@ -37,4 +46,18 @@
 }
 .tparagraf {
   font-size: 2rem;
+}
+
+.anketa {
+  border-style: dashed;
+  border-width: 3px;
+  height: 300px;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
