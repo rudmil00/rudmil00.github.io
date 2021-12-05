@@ -1,0 +1,5 @@
+.slika:hover {
+  transform: scale(1.5);
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
