@@ -43,7 +43,7 @@ $(".open").click(function () {
   } else if (document.querySelector(".poruka").value === "") {
     alert("Niste popunili sva polja.😒");
   } else {
-    alert("Poslali ste vasu poruku.😊😊😊");
+    alert("Poslali ste vašu poruku.😊😊😊");
     myWindow();
     window.location.reload();
   }
@@ -85,5 +85,9 @@ var tajmer = setInterval(function () {
 }, 1000);
 
 $(".posalji").click(function () {
-  alert("Hvala vam sto ste popunili nasu malu anketu !!!");
+  if ($("input[type=checkbox]:checked").length < 1) {
+    alert("Niste popunili sva polja.😒");
+  } else {
+    alert("Hvala Vam što ste popunili našu malu anketu !!!");
+  }
 });
