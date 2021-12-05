@@ -91,13 +91,13 @@
   }
 }
 
-#my-icon{
+#my-icon {
   background-color: white;
 }
-#my-icon :hover{
+#my-icon :hover {
   background-color: white;
 }
-#my-icon a.active{
+#my-icon a.active {
   background-color: white;
 }
 
@@ -108,7 +108,6 @@ header {
   flex-wrap: wrap;
   padding: 10px 20px;
   padding-right: 100px;
-  
 }
 .glavni-naslov {
   font-family: "Comforter Brush";
