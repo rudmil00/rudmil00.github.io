@@ -24,7 +24,8 @@
   font-size: 20px;
   text-decoration: none;
   color: black;
-  padding: 0px 10px;
+  margin-right: 20px;
+  padding: 5px 5px;
 }
 
 .nav-bar a.active {
@@ -80,7 +81,7 @@
   }
   .nav-bar-mini.responsive a.icon {
     float: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
   .nav-bar-mini.responsive a {
@@ -88,6 +89,16 @@
     display: block;
     text-align: left;
   }
+}
+
+#my-icon{
+  background-color: white;
+}
+#my-icon :hover{
+  background-color: white;
+}
+#my-icon a.active{
+  background-color: white;
 }
 
 header {
@@ -139,27 +150,42 @@ header {
   margin-right: 220px;
 }
 
-/* Gde ovo koristimo? */
 .opste {
   margin-top: 10%;
 }
 
-.footer-container {
-  text-align: right;
+
+footer {
+  /* display: grid; */
+  /* grid-template-columns: 70% 30%;
+  /* grid-gap: 5px; - */
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  /* padding: 20px; */
+  /* top: 500px; */
+  /* max-width: 100%; */
+  height: auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  top: 80px;
+  /* bottom: 10px; */
+  background-color:rgb(255,182,193);
 }
 
-.dm-slika {
-  max-width: 100%;
-  height: auto;
+
+.dm-slika:hover {
+  opacity: 0.6;
 }
 
 .oNama-container {
-  margin: 50px 5% 5% 5%;
+  margin: 40px 5% 0 5%;
   width: auto;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 340px;
+  grid-template-rows: 300px;
 }
 
 @media (max-width: 700px) {
@@ -201,3 +227,4 @@ header {
   max-width: 100%;
   height: auto;
 }
+
