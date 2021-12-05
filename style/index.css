@@ -2,7 +2,4 @@
   transform: scale(1.5);
   overflow: hidden;
   transition: transform 0.5s ease;
-
-  /* -ms-transform: scale(1.5); IE 9 */
-  /* -webkit-transform: scale(1.5); Safari 3-8 */
 }
