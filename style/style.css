@@ -88,6 +88,9 @@
     display: block;
     text-align: left;
   }
+  .column{
+    display: none;
+  }
 }
 
 #my-icon {
@@ -195,4 +198,5 @@ header {
     margin-top:100;
     background-color:rgb(231, 231, 231);
   }
+  
   
