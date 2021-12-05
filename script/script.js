@@ -38,12 +38,29 @@ obrisi.addEventListener("click", function () {
   document.querySelector(".poruka").textContent = " ";
 });
 
-// $(".open").click(function () {
-//   myWindow = window.open(
-//     " ",
-//     "myWindow",
-//     "width=300,height=200, top=100,left=500,"
-//   );
-//   myWindow.document.write("hey");
-//   myWindow.select();
-// });
+var myWindow;
+let posalji = document.getElementsByClassName("posalji")[0];
+
+$(".posalji").click(myWindow);
+
+function myWindow() {
+  myWindow = window.open(
+    "",
+    "myWindow",
+    "width=200,height=100, top=100,left=500,"
+  );
+  myWindow.document.write(
+    "Ime: " +
+      $(".ime").val() +
+      "\n" +
+      "Prezime: " +
+      "\n" +
+      $(".prezime").val() +
+      "\n" +
+      "E-mail: " +
+      $(".e-mail").val() +
+      "\n" +
+      "Poruka: " +
+      $(".poruka").val()
+  );
+}

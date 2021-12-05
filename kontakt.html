@@ -31,64 +31,62 @@
                 <img src="images/meni.png">
             </a>
         </div>
-      </header>
- 
-        <form class="forma-kontakt">
-            <label for="ime">
-                Vase ime:
-            </label>
+    </header>
+    <form class="forma-kontakt">
+        <label for="ime">
+            Vase ime:
+        </label>
+        <input
+            type="text"
+            class="ime"
+            name="ime"
+            size="35"
+            maxlength="16"
+        >
+        <div>
+            <label for="prezime">Vase prezime:</label>
             <input
                 type="text"
-                class="ime"
-                name="ime"
+                class="prezime"
+                name="prezime"
                 size="35"
                 maxlength="16"
             >
-            <div>
-                <label for="prezime">Vase prezime:</label>
-                <input
-                    type="text"
-                    class="prezime"
-                    name="prezime"
-                    size="35"
-                    maxlength="16"
-                >
-            </div>
-            <div>
-                <label for="e-mail">Vas e-mail:</label>
-                <input
-                    type="text"
-                    class="e-mail"
-                    name="e-mail"
-                    size="35"
-                    manxlength="30"
-                >
-            </div>
-            Izaberite tip poruke:
-            <br>
-            <input type="radio" name="tip" value="reklamacija">
-            Reklamacija
-            <br>
-            <input type="radio" name="tip" value="Upit">
-            Upit
-            <br>
-            <input type="radio" name="tip" value="porudzbina">
-            Porudzbina
-            <br>
-            Poruka:
-            <br>
-            <textarea
-                name="poruka"
-                class="poruka"
-                cols="40"
-                rows="10"
+        </div>
+        <div>
+            <label for="e-mail">Vas e-mail:</label>
+            <input
+                type="text"
+                class="e-mail"
+                name="e-mail"
+                size="35"
+                manxlength="30"
             >
-                Poruka...</textarea>
-            <br>
-            <br>
-            <button class="open" type="button">Posalji</button>
-            <button class="obrisi-btn" type="reset">Obrisi</button>
-        </form>
-        <script src="script/script.js"></script>
-    </body>
+        </div>
+        Izaberite tip poruke:
+        <br>
+        <input type="radio" name="tip" value="reklamacija">
+        Reklamacija
+        <br>
+        <input type="radio" name="tip" value="Upit">
+        Upit
+        <br>
+        <input type="radio" name="tip" value="porudzbina">
+        Porudzbina
+        <br>
+        Poruka:
+        <br>
+        <textarea
+            name="poruka"
+            class="poruka"
+            cols="40"
+            rows="10"
+        ></textarea>
+        <br>
+        <br>
+        <button class="posalji" type="button">Posalji</button>
+        <button class="obrisi-btn" type="reset">Obrisi</button>
+    </form>
+    <script src="script/script.js"></script>
+</body>
 </html>
