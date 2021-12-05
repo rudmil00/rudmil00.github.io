@@ -4,7 +4,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: "Montserrat";;
+  font-family: "Montserrat";
 }
 
 .nav-bar {
@@ -87,7 +87,7 @@
     display: block;
     text-align: left;
   }
-  .column{
+  .column {
     display: none;
   }
 }
@@ -132,8 +132,8 @@ header {
 }
 .glavna-sekcija h1 {
   text-align: center;
-  padding: 10%;
-  font-size: 8rem;
+  padding: 8% 8% 8% 3%;
+  font-size: 6rem;
   color: black;
   font-family: "Corinthia";
 }
@@ -141,10 +141,9 @@ header {
 .naslov {
   margin-top: 50px;
   text-align: center;
-
 }
 
-.footer{
+.footer {
   margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
@@ -152,9 +151,8 @@ header {
   background-color: rgb(231, 231, 231);
 }
 
-.logo-footer{
-  float:left;
-
+.logo-footer {
+  float: left;
 }
 
 .column {
@@ -163,9 +161,9 @@ header {
   font-weight: 300;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
-  }
+}
 
-.column a{
+.column a {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 12px;
@@ -173,24 +171,21 @@ header {
   text-decoration: none;
 }
 
-  .left {
+.left {
   width: 15%;
-  }
+}
 
-  .middle {
+.middle {
   margin-top: 10px;
   width: 5%;
-  }
-  
-  .right {
-  width: 15%;
-  }
+}
 
-  .row:after {
+.right {
+  width: 15%;
+}
+
+.row:after {
   content: "";
   display: table;
   clear: both;
-  }
-
-  
-  
+}

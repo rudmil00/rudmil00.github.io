@@ -12,19 +12,30 @@
   margin-right: 220px;
   margin-bottom: 10px;
 }
+.torta-naslov {
+  font: "Montserrat";
+  text-align: center;
+
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
 .torte {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  margin-right: 20%;
+  margin-bottom: 10%;
 }
 .torte p {
   font-size: 18px;
 }
 
 .torte img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 500px;
 }
 
 .tajmer {
