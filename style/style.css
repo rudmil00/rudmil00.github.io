@@ -59,7 +59,7 @@
     display: none;
   }
 }
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
 @media screen and (max-width: 600px) {
   .nav-bar {
     display: none;
@@ -73,7 +73,6 @@
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .nav-bar-mini.responsive {
     position: relative;
@@ -96,9 +95,11 @@
 #my-icon {
   background-color: white;
 }
+
 #my-icon :hover {
   background-color: white;
 }
+
 #my-icon a.active {
   background-color: white;
 }
@@ -111,14 +112,13 @@ header {
   padding: 10px 20px;
   padding-right: 100px;
 }
+
 .glavni-naslov {
   font-family: "Comforter Brush";
   color: rgb(25, 16, 16);
 }
 
 .logo {
-  /* width: 120px;
-  height: 120px; */
   max-width: 100%;
   height: auto;
 }
@@ -134,10 +134,10 @@ header {
   text-align: center;
   padding: 10%;
   font-size: 8rem;
-  /* color: aliceblue; */
   color: black;
   font-family: "Corinthia";
 }
+
 .naslov {
   margin-top: 50px;
   text-align: center;
@@ -172,8 +172,6 @@ header {
   color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
-
-  /* Set width length for the left, right and middle columns */
 
   .left {
   width: 15%;
