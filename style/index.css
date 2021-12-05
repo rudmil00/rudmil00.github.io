@@ -3,6 +3,7 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
+
 .top-proizvodi {
   display: flex;
   justify-content: space-around;
@@ -12,12 +13,14 @@
   margin-right: 220px;
   margin-bottom: 10px;
 }
+
 .torte {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
 }
+
 .torte p {
   font-size: 18px;
 }
@@ -64,12 +67,29 @@
   border-style: dashed;
   border-width: 3px;
   height: 30%;
-  width: 30%;
-  margin-left: 40%;
+  width: 50%;
+  margin-left: 25%;
   text-align: center;
   border-radius: 5px;
   background-color: rgb(238, 238, 238);
   padding: 20px;
   margin-top: 5%;
   margin-bottom: 5%;
+  font-family: "Montserrat";
+  font-size: 25px;
+
+}
+
+button[type=button] {
+  width: 60%;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-color: #000000a8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.proizvodi {
+  font-family: "Montserrat";
 }
