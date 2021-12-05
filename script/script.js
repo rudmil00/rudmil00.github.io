@@ -99,3 +99,7 @@ var tajmer = setInterval(function () {
     document.getElementById("kraj").innerHTML = "KRAJ!";
   }
 }, 1000);
+
+$(".posalji").click(function () {
+  alert("Hvala vam sto ste popunili nasu malu anketu !!!");
+});
