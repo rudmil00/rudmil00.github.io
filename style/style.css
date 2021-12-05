@@ -138,11 +138,6 @@ header {
   font-family: "Corinthia";
 }
 
-.naslov {
-  margin-top: 50px;
-  text-align: center;
-}
-
 .footer {
   margin-top: 5%;
   display: flex;
