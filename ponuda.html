@@ -1,338 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" type="text/css" href="style/jquery.lightbox.css" />
-    <link rel="stylesheet" href="style/ponuda.css" />
-    <title>Ponuda</title>
-  </head>
-  <body>
-    <header>
-      <a href="index.html"><img src="images\logo.png" class="logo" /></a>
-      <h1 class="glavni-naslov">Poslastičarnica Tra La La</h1>
-      <div class="nav-bar" id="my-nav-bar">
-        <a href="index.html">Početna</a>
-        <a href="ponuda.html" class="active">Ponuda</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="oNama.html">O nama</a>
-      </div>
-    </header>
-
-    <div class="nav-bar-mini" id="my-nav-bar-mini">
-      <a href="index.html">Početna</a>
-      <a href="ponuda.html" class="active">Ponuda</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="oNama.html">O nama</a>
-      <a
-        href="javascript:void(0);"
-        class="icon"
-        id="my-icon"
-        onclick="myFunction()"
-      >
-        <img src="images/meni.png" id="my-icon" />
-      </a>
-    </div>
-    <button onclick="topFunction()" id="dugme" title="Idi na vrh stranice">
-      ⇧
-    </button>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Torte i komandni kolači</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/H/H1.jpg">
-            <img src="images/H/H1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H2.jpg">
-            <img src="images/H/H2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H3.jpg">
-            <img src="images/H/H3th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H4.jpg">
-            <img src="images/H/H4th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H5.jpg">
-            <img src="images/H/H5th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H6.jpg">
-            <img src="images/H/H6th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H7.jpg">
-            <img src="images/H/H7th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/H/H8.jpg">
-            <img src="images/H/H8th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Sitni kolači</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/C/C1.jpg">
-            <img src="images/C/C1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/C/C2.jpg">
-            <img src="images/C/C2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/C/C3.jpg">
-            <img src="images/C/C3th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/C/C4.jpg">
-            <img src="images/C/C4th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/C/C5.jpg">
-            <img src="images/C/C5th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Svečane torte</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/G/G1.jpg">
-            <img src="images/G/G1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/G/G2.jpg">
-            <img src="images/G/G2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/G/G3.jpg">
-            <img src="images/G/G3th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Dečije torte</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/B/B1.jpg">
-            <img src="images/B/B1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/B/B2.jpg">
-            <img src="images/B/B2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/B/B3.jpg">
-            <img src="images/B/B3th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/B/B4.jpg">
-            <img src="images/B/B4th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/B/B5.jpg">
-            <img src="images/B/B5th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Rođendanske torte</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/D/D1.jpg">
-            <img src="images/D/D1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/D/D2.jpg">
-            <img src="images/D/D2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/D/D3.jpg">
-            <img src="images/D/D3th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/D/D4.jpg">
-            <img src="images/D/D4th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Specijalne želje</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/E/E1.jpg">
-            <img src="images/E/E1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E2.jpg">
-            <img src="images/E/E2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E3.jpg">
-            <img src="images/E/E3th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E4.jpg">
-            <img src="images/E/E4th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E5.jpg">
-            <img src="images/E/E5th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E6.jpg">
-            <img src="images/E/E6th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E7.jpg">
-            <img src="images/E/E7th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/E/E8.jpg">
-            <img src="images/E/E8th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Svadbene torte</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/F/F1.jpg">
-            <img src="images/F/F1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/F/F2.jpg">
-            <img src="images/F/F2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/F/F3.jpg">
-            <img src="images/F/F3th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <br />
-      <br />
-      <h1>Cake pops & cupcakes</h1>
-      <ul class="gallery">
-        <li>
-          <a href="images/A/A1.jpg">
-            <img src="images/A/A1th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/A/A2.jpg">
-            <img src="images/A/A2th.png" alt="Image" />
-          </a>
-        </li>
-        <li>
-          <a href="images/A/A3.jpg">
-            <img src="images/A/A3th.png" alt="Image" />
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <footer class="footer">
-      
-      <div class="logo-footer">
-            <a href="index.html"><img src="images\logo.png" width="120" 
-              height="120" /></a>
-      </div>
-
-        <div class="column left">
-            <h2>Drustvene mreze</h2>
-            <a href="instagram.com">Instagram</a>
-            <br>
-            <a href="facebook.com">Facebook</a>
-            <br>
-            <a href="youtube.com">Youtube</a>
-
-        </div>
-        <div class="column middle">
-            <h2>Linkovi</h2>
-            <div class ="footerBar">
-            <a href="index.html" >Početna</a>
-            <br>
-            <a href="ponuda.html">Ponuda</a>
-            <br>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="style/jquery.lightbox.css">
+        <link rel="stylesheet" href="style/ponuda.css">
+        <title>Ponuda</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="images\logo.png" class="logo">
+            </a>
+            <h1 class="glavni-naslov">Poslastičarnica Tra La La</h1>
+            <div class="nav-bar" id="my-nav-bar">
+                <a href="index.html">Početna</a>
+                <a href="ponuda.html" class="active">Ponuda</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="oNama.html">O nama</a>
+            </div>
+        </header>
+        <div class="nav-bar-mini" id="my-nav-bar-mini">
+            <a href="index.html">Početna</a>
+            <a href="ponuda.html" class="active">Ponuda</a>
             <a href="kontakt.html">Kontakt</a>
+            <a href="oNama.html">O nama</a>
+            <a
+                href="javascript:void(0);"
+                class="icon"
+                id="my-icon"
+                onclick="myFunction()"
+            >
+                <img src="images/meni.png" id="my-icon">
+            </a>
+        </div>
+        <button onclick="topFunction()" id="dugme" title="Idi na vrh stranice">
+            ⇧
+        </button>
+        <div class="container">
             <br>
-            <a href="oNama.html" >O nama</a>
+            <br>
+            <h1>Torte i komandni kolači</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/H/H1.jpg">
+                        <img src="images/H/H1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H2.jpg">
+                        <img src="images/H/H2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H3.jpg">
+                        <img src="images/H/H3th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H4.jpg">
+                        <img src="images/H/H4th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H5.jpg">
+                        <img src="images/H/H5th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H6.jpg">
+                        <img src="images/H/H6th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H7.jpg">
+                        <img src="images/H/H7th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/H/H8.jpg">
+                        <img src="images/H/H8th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Sitni kolači</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/C/C1.jpg">
+                        <img src="images/C/C1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/C/C2.jpg">
+                        <img src="images/C/C2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/C/C3.jpg">
+                        <img src="images/C/C3th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/C/C4.jpg">
+                        <img src="images/C/C4th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/C/C5.jpg">
+                        <img src="images/C/C5th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Svečane torte</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/G/G1.jpg">
+                        <img src="images/G/G1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/G/G2.jpg">
+                        <img src="images/G/G2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/G/G3.jpg">
+                        <img src="images/G/G3th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Dečije torte</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/B/B1.jpg">
+                        <img src="images/B/B1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/B/B2.jpg">
+                        <img src="images/B/B2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/B/B3.jpg">
+                        <img src="images/B/B3th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/B/B4.jpg">
+                        <img src="images/B/B4th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/B/B5.jpg">
+                        <img src="images/B/B5th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Rođendanske torte</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/D/D1.jpg">
+                        <img src="images/D/D1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/D/D2.jpg">
+                        <img src="images/D/D2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/D/D3.jpg">
+                        <img src="images/D/D3th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/D/D4.jpg">
+                        <img src="images/D/D4th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Specijalne želje</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/E/E1.jpg">
+                        <img src="images/E/E1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E2.jpg">
+                        <img src="images/E/E2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E3.jpg">
+                        <img src="images/E/E3th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E4.jpg">
+                        <img src="images/E/E4th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E5.jpg">
+                        <img src="images/E/E5th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E6.jpg">
+                        <img src="images/E/E6th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E7.jpg">
+                        <img src="images/E/E7th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/E/E8.jpg">
+                        <img src="images/E/E8th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Svadbene torte</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/F/F1.jpg">
+                        <img src="images/F/F1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/F/F2.jpg">
+                        <img src="images/F/F2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/F/F3.jpg">
+                        <img src="images/F/F3th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <h1>Cake pops & cupcakes</h1>
+            <ul class="gallery">
+                <li>
+                    <a href="images/A/A1.jpg">
+                        <img src="images/A/A1th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/A/A2.jpg">
+                        <img src="images/A/A2th.png" alt="Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="images/A/A3.jpg">
+                        <img src="images/A/A3th.png" alt="Image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer class="footer">
+            <div class="logo-footer">
+                <a href="index.html">
+                    <img src="images\logo.png" width="120" height="120">
+                </a>
+            </div>
+            <div class="column left">
+                <h2>Društvene mreze</h2>
+                <a href="instagram.com">Instagram</a>
+                <br>
+                <a href="facebook.com">Facebook</a>
+                <br>
+                <a href="youtube.com">Youtube</a>
+            </div>
+            <div class="column middle">
+                <h2>Linkovi</h2>
+                <div class="footerBar">
+                    <a href="index.html">Početna</a>
+                    <br>
+                    <a href="ponuda.html">Ponuda</a>
+                    <br>
+                    <a href="kontakt.html">Kontakt</a>
+                    <br>
+                    <a href="oNama.html">O nama</a>
+                </div>
+            </div>
+            <div class="column right">
+                <h2>Informacije</h2>
+                <p>Adresa: Nemanjina 150a</p>
+                <p>Radno vreme: 24-00</p>
+                <p>Kontakt telefon: 011123123</p>
             </div>
         </div>
-        <div class="column right">
-            <h2>Informacije</h2>
-            <p>Adresa: Nemanjina 150a</p>
-            <p>Radno vreme: 24-00</p>
-            <p>Kontakt telefon: 011123123</p>
-
-        </div>
-    </div>
-      </footer>
-
+    </footer>
     <script src="script/script.js"></script>
-    <script
-      type="text/javascript"
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
-    ></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="script/jquery.lightbox.js"></script>
     <script src="script/topButton.js"></script>
     <script>
@@ -340,5 +333,5 @@
         $(".gallery a").lightbox();
       });
     </script>
-  </body>
+</body>
 </html>
