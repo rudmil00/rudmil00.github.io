@@ -1,0 +1,76 @@
+.slika:hover {
+  transform: scale(1.5);
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+.top-proizvodi {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 10px;
+}
+.torte {
+  display: flex;
+  height: 35vw;
+  margin-top: 5%;
+}
+.torte h1 {
+  text-align: center;
+}
+.torte p {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tajmer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  margin-left: 10vw;
+  margin-right: 4vw;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Montserrat";
+  color: #04aa6d;
+  /* font-weight: bold; */
+}
+
+.akcija-container {
+  
+  margin-top: 50px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 100%;
+  padding: 10px;
+  border-color: black;
+}
+
+.akcija {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+.tparagraf {
+  font-size: 2rem;
+}
+
+.anketa {
+  border-style: dashed;
+  border-width: 3px;
+  height: 300px;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

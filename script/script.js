@@ -65,5 +65,41 @@ function obrisi() {
   document.querySelector(".poruka").textContent = " ";
 }
 
-let obr = document.querySelector(".obrisi-btn");
-obr.addEventListener("click", obrisi());
+// let obr = document.querySelector(".obrisi-btn");
+// obr.addEventListener("click", obrisi());
+$(".obrisi-btn").click(obrisi);
+
+// The data/time we want to countdown to
+var kranjiDatum = new Date("December 28, 2021 16:37:52").getTime();
+
+// Run myfunc every second
+var tajmer = setInterval(function () {
+  var sada = new Date().getTime();
+  var preostalo = kranjiDatum - sada;
+
+  // Calculating the dani, sati, minuti and skeunde left
+  var dani = Math.floor(preostalo / (1000 * 60 * 60 * 24));
+  var sati = Math.floor((preostalo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minuti = Math.floor((preostalo % (1000 * 60 * 60)) / (1000 * 60));
+  var sekunde = Math.floor((preostalo % (1000 * 60)) / 1000);
+
+  // Result is output to the specific element
+  document.getElementById("dani").innerHTML = dani + "d ";
+  document.getElementById("sati").innerHTML = sati + "h ";
+  document.getElementById("minuti").innerHTML = minuti + "m ";
+  document.getElementById("sekunde").innerHTML = sekunde + "s ";
+
+  // Display the message when countdown is over
+  if (preostalo < 0) {
+    clearInterval(tajmer);
+    document.getElementById("dani").innerHTML = "";
+    document.getElementById("sati").innerHTML = "";
+    document.getElementById("minuti").innerHTML = "";
+    document.getElementById("sekunde").innerHTML = "";
+    document.getElementById("kraj").innerHTML = "AKCIJA JE ZAVRŠENA!";
+  }
+}, 1000);
+
+$(".posalji").click(function () {
+  alert("Hvala vam sto ste popunili nasu malu anketu !!!");
+});

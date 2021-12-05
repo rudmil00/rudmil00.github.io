@@ -5,45 +5,114 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/index.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <title>Poslasticarnica Tra La La</title>
+        <title>Početna</title>
     </head>
     <body>
         <header>
             <a href="index.html">
                 <img src="images\logo.png" class="logo">
             </a>
-            <h1 class="glavni-naslov">Početna</h1>
+            <h1 class="glavni-naslov">Poslastičarnica Tra La La</h1>
             <div class="nav-bar" id="my-nav-bar">
                 <a href="index.html" class="active">Početna</a>
                 <a href="ponuda.html">Ponuda</a>
                 <a href="kontakt.html">Kontakt</a>
                 <a href="oNama.html">O nama</a>
             </div>
-          </header>
-
-          <div class="nav-bar-mini" id = "my-nav-bar-mini">
-            <a href = "index.html"class = "active">Početna</a>
-            <a href = "ponuda.html" >Ponuda</a>
-            <a href = "kontakt.html">Kontakt</a>
-            <a href = "oNama.html">O nama</a>
-            <a href="javascript:void(0);" class="icon" id="my-icon" onclick="myFunction()">
-              <img src = "images/meni.png" id="my-icon"/>
+        </header>
+        <div class="nav-bar-mini" id="my-nav-bar-mini">
+            <a href="index.html" class="active">Početna</a>
+            <a href="ponuda.html">Ponuda</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="oNama.html">O nama</a>
+            <a
+                href="javascript:void(0);"
+                class="icon"
+                id="my-icon"
+                onclick="myFunction()"
+            >
+                <img src="images/meni.png" id="my-icon">
             </a>
         </div>
         <div class="glavna-sekcija">
             <h1>Parče raja samo za Vas...</h1>
         </div>
-        <h1 class="naslov"> TOP PROIZVODI</h1>
+        <h1 class="naslov top-proizvodi"> TOP PROIZVODI</h1>
         <br>
         <br>
         <div class="top-proizvodi">
-            <img class="slika-1" src="images/top/rafaelo.png" alt="">
-            <img class="slika-2" src="images/top/indijaner.png" alt="">
-            <img class="slika-3" src="images/top/cup-cake.png" alt="">
-            <img class="slika-4" src="images/top/kinder.png" alt="">
+            <a href="/ponuda.html">
+                <img class="slika 1" src="images/top/rafaelo.png" alt="">
+            </a>
+            <a href="/ponuda.html">
+                <img class="slika 2" src="images/top/indijaner.png" alt="">
+            </a>
+            <a href="/ponuda.html">
+                <img class="slika 3" src="images/top/cup-cake.png" alt="">
+            </a>
+            <a href="/ponuda.html">
+                <img class="slika 4" src="images/top/kinder.png" alt="">
+            </a>
         </div>
-        <div class="opste"></div>
+        <div class="torte">
+            <img src="/images/torta-index.jpg">
+            <p>
+                "Bele ili šarene, na sprat ili u različitim oblicima, voćne ili čokoladne, svadbene torte su postale nezaobilazna tradicija za sve mladence za njihov poseban dan. Odabir odgovarajuće svadbene torte je postao  jednako važan kao izbor venčanice i svečanog odela. Predstavljamo vam nekoliko interesantnih činjenica koje verovatno niste znali o svadbenim tortama:
+                <br>
+                •    Zanimljiva tradicija u 17. veku bila je ta da neudate devojke stavljaju parče svadbene torte pod jastuk uoči ceremonije svadbe. Prateći ovaj ritual, verovalo se da će devojka sanjati svog budućeg muža.
+                <br>
+                •    Prema Ginisovoj knjizi rekorda, kuvari Mohegan Sun Hotel and Casino u Konektikatu, 2004 su napravili najveću svadbenu tortu ikada. Torta je bila teška neverovatnih 6.818 tona!
+                <br>
+                •    U martu 2013. godine, torta  pekara iz mesta Chester, u Engleskoj, priznata je za najskuplju svadbenu tortu na svetu, u vrednosti od 52.7 miliona dolara! Na višespratnoj torti nalazilo se neverovatnih 4000 dijamanata!"
+            </p>
+        </div>
+        <form class="anketa">
+            <p>Vaše sugestije bi nam mnogo značile !</p>
+            <br>
+            <p>Koji naš proizvod najviše volite?</p>
+            <br>
+            <select name="proizvodi" id="proizvodi">
+                <optgroup label="Torte">
+                    <option value="svecane">svečane</option>
+                    <option value="svadbene">svadbene</option>
+                    <option value="rodjendanske">rođendanske</option>
+                    <option value="decije">dečije</option>
+                </optgroup>
+                <optgroup label="Kolači">
+                    <option value="sitni">sitni</option>
+                    <option value="komadni">komadni</option>
+                </optgroup>
+                <option value="specijalneZelje">Specijalne želje</option>
+                <option value="capcake">Cake pops & cupcakes</option>
+            </select>
+            <p>Koji proizvod bi želeli da vidite u našoj poslastičarnici?</p>
+            <input type="checkbox" name="novi-proizvod" value="sladoled">
+            Sladoled
+            <br>
+            <input type="checkbox" name="novi-proizvod" value="krempita">
+            Krempita
+            <br>
+            <input type="checkbox" name="novi-proizvod" value="mafini">
+            Mafini
+            <br>
+            <input type="checkbox" name="novi-proizvod" value="krofne">
+            Krofne
+            <br>
+            <input type="checkbox" name="novi-proizvod" value="kuglof">
+            Kuglof
+            <br>
+            <button class="posalji" type="button">Pošalji</button>
+        </form>
+        <h1 class="akcija">AKCIJA na sve torte traje još:</h1>
+        <div class="tajmer">
+            <p class="tparagraf" id="dani"></p>
+            <p class="tparagraf" id="sati"></p>
+            <p class="tparagraf" id="minuti"></p>
+            <p class="tparagraf" id="sekunde"></p>
+            <h2 class="tparagraf" id="kraj"></h2>
+        </div>
         <script src="script/script.js"></script>
     </body>
 </html>
