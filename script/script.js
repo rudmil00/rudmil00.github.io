@@ -7,3 +7,23 @@ function myFunction() {
     x.className = "nav-bar-mini";
   }
 }
+
+let posalji = document.getElementsByClassName("posalji-btn");
+
+console.log(posalji);
+
+// posalji.addEventListener("click", function () {
+//   console.log("cao bela");
+// });
+
+// document
+//   .querySelector(".posalji-btn")
+//   .addEventListener("click", function () {});
+
+let obrisi = document.querySelector(".obrisi-btn");
+obrisi.addEventListener("click", function () {
+  document.querySelector(".ime").textContent = " ";
+  document.querySelector(".prezime").textContent = " ";
+  document.querySelector(".e-mail").textContent = " ";
+  document.querySelector(".poruka").textContent = " ";
+});
