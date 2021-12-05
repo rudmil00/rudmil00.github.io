@@ -65,5 +65,6 @@ function obrisi() {
   document.querySelector(".poruka").textContent = " ";
 }
 
-let obr = document.querySelector(".obrisi-btn");
-obr.addEventListener("click", obrisi());
+// let obr = document.querySelector(".obrisi-btn");
+// obr.addEventListener("click", obrisi());
+$(".obrisi-btn").click(obrisi);
