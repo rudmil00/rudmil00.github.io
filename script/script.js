@@ -101,5 +101,9 @@ var tajmer = setInterval(function () {
 }, 1000);
 
 $(".posalji").click(function () {
-  alert("Hvala vam sto ste popunili nasu malu anketu !!!");
+  if ($("input[type=checkbox]:checked").length < 1) {
+    alert("Niste popunili sva polja.😒");
+  } else {
+    alert("Hvala vam sto ste popunili nasu malu anketu !!!");
+  }
 });

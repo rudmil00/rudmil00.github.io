@@ -27,9 +27,10 @@
 }
 .torte {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  margin-right: 10%;
 }
 .torte p {
   font-size: 18px;
@@ -37,8 +38,11 @@
 }
 
 .torte img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  padding-right: 14%;
 }
 
 .tajmer {
@@ -69,6 +73,8 @@
   text-align: center;
   font-size: 2rem;
   font-family: "Montserrat";
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 .tparagraf {
   font-size: 2rem;
@@ -90,7 +96,7 @@
   font-size: 25px;
 }
 
-button[type=button] {
+button[type="button"] {
   width: 60%;
   background-color: white;
   padding: 14px 20px;
