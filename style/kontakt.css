@@ -6,7 +6,7 @@
   padding: 20px;
   margin-left: 10%;
   margin-right:30%;
-  margin-top: 10%;
+  margin-top: 2%;
   font-family: "Montserrat";
 }
 @media screen and (max-width: 600px) {
@@ -66,3 +66,18 @@ button[type=reset] {
 button[type=reset]:hover {
   background-color: #04aa6d;
   color: white;}
+
+.forma-opis{
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 5%;
+  margin-right:30%;
+  margin-top:3%;
+  font-family: "Montserrat";
+}
+
+.forma-opis-naslov{
+  font-family: "Montserrat";
+  margin-bottom: 1%;
+}
