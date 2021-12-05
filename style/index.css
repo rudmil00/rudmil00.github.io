@@ -3,6 +3,12 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
+.naslov-top-proizvodi {
+  font: "Montserrat";
+  font-size: 3rem;
+  margin-top: 5%;
+  text-align: center;
+}
 .top-proizvodi {
   display: flex;
   justify-content: space-around;
@@ -10,7 +16,14 @@
   align-items: center;
   margin-left: 220px;
   margin-right: 220px;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
+}
+.torta-naslov {
+  font: "Montserrat";
+  font-size: 3rem;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 .torte {
   display: flex;
@@ -20,6 +33,7 @@
 }
 .torte p {
   font-size: 18px;
+  font: "Arial";
 }
 
 .torte img {
@@ -74,10 +88,9 @@
   margin-bottom: 5%;
   font-family: "Montserrat";
   font-size: 25px;
-
 }
 
-button[type=button] {
+button[type="button"] {
   width: 60%;
   background-color: white;
   padding: 14px 20px;
