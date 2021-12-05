@@ -70,7 +70,7 @@ function obrisi() {
 $(".obrisi-btn").click(obrisi);
 
 // The data/time we want to countdown to
-var kranjiDatum = new Date("December 25, 2021 16:37:52").getTime();
+var kranjiDatum = new Date("December 28, 2021 16:37:52").getTime();
 
 // Run myfunc every second
 var tajmer = setInterval(function () {
@@ -81,13 +81,13 @@ var tajmer = setInterval(function () {
   var dani = Math.floor(preostalo / (1000 * 60 * 60 * 24));
   var sati = Math.floor((preostalo % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minuti = Math.floor((preostalo % (1000 * 60 * 60)) / (1000 * 60));
-  var skeunde = Math.floor((preostalo % (1000 * 60)) / 1000);
+  var sekunde = Math.floor((preostalo % (1000 * 60)) / 1000);
 
   // Result is output to the specific element
   document.getElementById("dani").innerHTML = dani + "d ";
   document.getElementById("sati").innerHTML = sati + "h ";
   document.getElementById("minuti").innerHTML = minuti + "m ";
-  document.getElementById("sekunde").innerHTML = skeunde + "s ";
+  document.getElementById("sekunde").innerHTML = sekunde + "s ";
 
   // Display the message when countdown is over
   if (preostalo < 0) {
@@ -96,7 +96,7 @@ var tajmer = setInterval(function () {
     document.getElementById("sati").innerHTML = "";
     document.getElementById("minuti").innerHTML = "";
     document.getElementById("sekunde").innerHTML = "";
-    document.getElementById("kraj").innerHTML = "KRAJ!";
+    document.getElementById("kraj").innerHTML = "AKCIJA JE ZAVRŠENA!";
   }
 }, 1000);
 
