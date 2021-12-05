@@ -8,9 +8,17 @@ function myFunction() {
   }
 }
 
-let posalji = document.getElementsByClassName("posalji-btn");
-
-console.log(posalji);
+$(".posalji-btn").click(function () {
+  if ($(".ime").value.length == 0) {
+    alert("Niste popunili sva polja.😒");
+  } else if ($(".prezime").value.length == 0) {
+    alert("Niste popunili sva polja.😒");
+  } else if ($(".e-mail").value.length == 0) {
+    alert("Niste popunili sva polja.😒");
+  } else if ($(".poruka").value.length == 0) {
+    alert("Niste popunili sva polja.😒");
+  } else alert("Poslali ste vasu poruku.😊😊😊");
+});
 
 // posalji.addEventListener("click", function () {
 //   console.log("cao bela");
