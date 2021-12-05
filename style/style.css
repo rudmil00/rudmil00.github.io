@@ -118,7 +118,8 @@ header {
   text-align: center;
   padding: 10%;
   font-size: 8rem;
-  color: aliceblue;
+  /* color: aliceblue; */
+  color: black;
   font-family: "Corinthia";
 }
 .naslov {
@@ -167,6 +168,17 @@ header {
   }
   .tekst {
     font-size: 2.5vw;
+  }
+
+  .glavna-sekcija {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .glavna-sekcija h1 {
+    text-align: center;
+    padding: 10%;
+    font-size: 18vw;
   }
 }
 
