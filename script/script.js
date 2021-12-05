@@ -68,3 +68,5 @@ function obrisi() {
 // let obr = document.querySelector(".obrisi-btn");
 // obr.addEventListener("click", obrisi());
 $(".obrisi-btn").click(obrisi);
+
+$;
